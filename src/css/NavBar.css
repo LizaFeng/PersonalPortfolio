@@ -5,8 +5,16 @@
 
 .navbar-brand {
   margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 li {
   margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.resCategory {
+  text-align: center;
 }
