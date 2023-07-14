@@ -1,47 +1,75 @@
+import "../css/Contact.css";
+
 const Contact = () => {
   return (
-    <div>
-      <form>
-        <div className="form-row">
-          <label htmlFor="firstName"> First Name: </label>
-          <input
-            type="text"
-            className="form-control"
-            id="firstName"
-            placeholder="Enter your first name"
-          />
-          <label htmlFor="lastName"> Last Name: </label>
-          <input
-            type="text"
-            className="form-control"
-            id="lastName"
-            placeholder="Enter your last name"
-          />
+    <div className="justify-content-center">
+      <h2>Get in Touch</h2>
+      <form className="contactForm">
+        <div className="form-group row">
+          <label htmlFor="firstName" className="col-sm-2 col-form-label">
+            First Name
+          </label>
+          <div className="col-sm-10">
+            <input
+              type="text"
+              className="form-control"
+              id="firstName"
+              placeholder="First Name"
+            />
+          </div>
         </div>
-        <div className="form-row">
-          <label htmlFor="email">Email: </label>
-          <input
-            type="email"
-            className="form-control"
-            id="email"
-            placeholder="Enter Your Email"
-          />
-          <label htmlFor="subject">Subject: </label>
-          <input
-            type="subject"
-            className="form-control"
-            id="subject"
-            placeholder="Enter Topic of Discussion"
-          />
+        <div className="form-group row">
+          <label htmlFor="lastName" className="col-sm-2 col-form-label">
+            Last Name
+          </label>
+          <div className="col-sm-10">
+            <input
+              type="text"
+              className="form-control"
+              id="lastName"
+              placeholder="Last Name"
+            />
+          </div>
         </div>
-        <div>
-          <label htmlFor="messageBox">Message: </label>
-          <textarea
-            id="messageBox"
-            name="messageBox"
-            rows="10"
-            cols="50"
-          ></textarea>
+        <div className="form-group row">
+          <label htmlFor="email" className="col-sm-2 col-form-label">
+            Email
+          </label>
+          <div className="col-sm-10">
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div className="form-group row">
+          <label htmlFor="subject" className="col-sm-2 col-form-label">
+            Subject
+          </label>
+          <div className="col-sm-10">
+            <input
+              type="text"
+              className="form-control"
+              id="subject"
+              placeholder="Subject"
+            />
+          </div>
+        </div>
+        <div className="form-group row">
+          <label htmlFor="message" className="col-sm-2 col-form-label">
+            Message
+          </label>
+          <div className="col-sm-10">
+            <textarea
+              className="form-control"
+              id="message"
+              placeholder="Message"
+              rows="10"
+              cols="50"
+            ></textarea>
+          </div>
         </div>
         <div>
           <button type="button" className="btn btn-light">
