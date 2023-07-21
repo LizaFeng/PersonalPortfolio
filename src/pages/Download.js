@@ -1,5 +1,9 @@
 const Download = () => {
-  return <h1>Download </h1>;
+  return (
+    <a href="LizaResume.pdf" download="LizaResume.pdf">
+      <button>Download File</button>
+    </a>
+  );
 };
 
 export default Download;
