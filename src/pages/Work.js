@@ -1,5 +1,5 @@
 import { workExp } from "../data/workExp";
-import "../css/Work.css";
+import "../css/InfoCard.css";
 import Card from "react-bootstrap/Card";
 
 const Work = () => {

@@ -9,7 +9,7 @@ import Download from "../../pages/Download";
 import NotFound from "../../pages/NotFound";
 
 function NavBar() {
-  const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+  //const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
   return (
     <div>
