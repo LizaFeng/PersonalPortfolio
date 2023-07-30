@@ -7,6 +7,8 @@ import Projects from "../../pages/Projects";
 import Work from "../../pages/Work";
 import Download from "../../pages/Download";
 import NotFound from "../../pages/NotFound";
+import WorkDetails from "../../pages/WorkDets";
+import workExp from "../../data/workExp";
 
 function NavBar() {
   //const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
@@ -44,6 +46,10 @@ function NavBar() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Work-Experience" element={<Work />} />
+        <Route
+          path="/Work-Experience/:company/:startMY"
+          element={<WorkDetails />}
+        />
         <Route path="/Download" element={<Download />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
