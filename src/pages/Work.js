@@ -1,15 +1,21 @@
 import { workExp } from "../data/workExp";
 import "../css/InfoCard.css";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
     <div className="workContainer card-deck">
       {workExp.map(function (exp, i) {
         return (
-          <a
+          <Link
             className="workCard"
-            href="https://stackoverflow.com/questions/70068954/make-entire-card-clickable-by-targeting-a-inside-of-it"
+            to={`/Work-Experience/${exp.company.replace(
+              /\s+/g,
+              "_"
+            )}/${exp.startDate.replace(/\s+/g, "_")}`}
+            key={exp.key}
+            target="_blank"
           >
             <Card className="mb-4 " style={{ width: "18rem" }}>
               <Card.Body>
@@ -26,7 +32,7 @@ const Work = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </a>
+          </Link>
         );
       })}
     </div>

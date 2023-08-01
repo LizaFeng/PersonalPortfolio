@@ -1,7 +1,7 @@
 const projectList = [
   {
     key: 1,
-    projectName: "Animal Mafia",
+    name: "Animal Mafia",
     solo: false,
     teamSize: 5,
     startDate: "Jan 2023",
@@ -16,7 +16,7 @@ const projectList = [
   },
   {
     key: 2,
-    projectName: "Hexadecimal Calculator",
+    name: "Hexadecimal Calculator",
     solo: true,
     teamSize: 1,
     startDate: "Dec 2022",
@@ -31,7 +31,7 @@ const projectList = [
   },
   {
     key: 3,
-    projectName: "Steal-Tastic",
+    name: "Steal-Tastic",
     solo: false,
     teamSize: 4,
     startDate: "Dec 2021",

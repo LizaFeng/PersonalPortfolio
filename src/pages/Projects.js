@@ -1,20 +1,25 @@
 import projectList from "../data/projectList";
 import "../css/InfoCard.css";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
     <div className="cardContainer card-deck" style={{ textAlign: "center" }}>
       {projectList.map(function (proj, i) {
         return (
-          <a
+          <Link
             className="InfoCard"
-            href="https://stackoverflow.com/questions/70068954/make-entire-card-clickable-by-targeting-a-inside-of-it"
+            to={`/Projects/${proj.name.replace(
+              /\s+/g,
+              "_"
+            )}/${proj.startDate.replace(/\s+/g, "_")}`}
+            key={proj.key}
           >
             <Card className="mb-4 " style={{ width: "20rem", height: "15rem" }}>
               <Card.Body>
                 <Card.Title>
-                  <h1>{proj.projectName}</h1>
+                  <h1>{proj.name}</h1>
                 </Card.Title>
 
                 <Card.Subtitle className="mb-2 text-muted cardText">
@@ -27,7 +32,7 @@ const Projects = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </a>
+          </Link>
         );
       })}
     </div>

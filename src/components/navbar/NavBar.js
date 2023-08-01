@@ -7,10 +7,10 @@ import Projects from "../../pages/Projects";
 import Work from "../../pages/Work";
 import Download from "../../pages/Download";
 import NotFound from "../../pages/NotFound";
+import WorkDetails from "../../pages/WorkDets";
+import ProjDetails from "../../pages/ProjDets";
 
 function NavBar() {
-  //const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
-
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -43,7 +43,12 @@ function NavBar() {
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/Projects/:name/:startMY" element={<ProjDetails />} />
         <Route path="/Work-Experience" element={<Work />} />
+        <Route
+          path="/Work-Experience/:name/:startMY"
+          element={<WorkDetails />}
+        />
         <Route path="/Download" element={<Download />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
