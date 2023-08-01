@@ -1,6 +1,13 @@
 import "../css/Contact.css";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
   return (
     <div className="justify-content-center">
       <h2>Get in Touch</h2>
@@ -15,6 +22,7 @@ const Contact = () => {
               className="form-control"
               id="firstName"
               placeholder="First Name"
+              required
             />
           </div>
         </div>
@@ -28,6 +36,7 @@ const Contact = () => {
               className="form-control"
               id="lastName"
               placeholder="Last Name"
+              required
             />
           </div>
         </div>
@@ -41,6 +50,7 @@ const Contact = () => {
               className="form-control"
               id="email"
               placeholder="Email"
+              required
             />
           </div>
         </div>
@@ -54,6 +64,7 @@ const Contact = () => {
               className="form-control"
               id="subject"
               placeholder="Subject"
+              required
             />
           </div>
         </div>
@@ -68,11 +79,12 @@ const Contact = () => {
               placeholder="Message"
               rows="10"
               cols="50"
+              required
             ></textarea>
           </div>
         </div>
         <div>
-          <button type="button" className="btn btn-light">
+          <button type="submit" className="btn btn-light">
             Send Message
           </button>
         </div>
