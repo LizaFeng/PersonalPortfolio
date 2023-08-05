@@ -5,3 +5,8 @@
 .cardText {
   margin: 1.5rem;
 }
+
+.cardDetails {
+  margin: 8%;
+  text-align: left;
+}

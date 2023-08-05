@@ -15,7 +15,6 @@ const Work = () => {
               "_"
             )}/${exp.startDate.replace(/\s+/g, "_")}`}
             key={exp.key}
-            target="_blank"
           >
             <Card className="mb-4 " style={{ width: "18rem" }}>
               <Card.Body>

@@ -10,7 +10,7 @@ import NotFound from "../../pages/NotFound";
 import WorkDetails from "../../pages/WorkDets";
 import ProjDetails from "../../pages/ProjDets";
 
-function NavBar() {
+const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -54,6 +54,6 @@ function NavBar() {
       </Routes>
     </div>
   );
-}
+};
 
 export default NavBar;
