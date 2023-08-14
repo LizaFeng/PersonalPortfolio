@@ -5,7 +5,10 @@ const Home = () => {
   return (
     <div className="about-me">
       <div className="intro">
-        <h1>Hello, I'm Liza!</h1>
+        <h2>Hello! Liza here, sharing my DIY portfolio site.</h2>
+        <div style={{ marginTop: "2rem" }}>
+          <p>Before we venture further, let me provide a brief introduction.</p>
+        </div>
       </div>
       <p>
         I'm a recent <a href="https://hunter.cuny.edu/">Hunter College</a>
