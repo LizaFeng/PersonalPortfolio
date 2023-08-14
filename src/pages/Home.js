@@ -1,5 +1,6 @@
 import projectList from "../data/projectList";
 import "../css/Home.css";
+
 const Home = () => {
   const currentProject = () => {};
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         opportunities for collaboration, networking, and discussions related to
         front-end development and innovative web solutions. Let's connect and
         explore ways we can create impactful digital experiences together.
+
       </p>
     </div>
   );

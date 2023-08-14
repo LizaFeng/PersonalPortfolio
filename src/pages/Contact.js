@@ -6,6 +6,7 @@ const Contact = () => {
       "Greetings! The contact page is currently undergoing development, so emails won't be dispatched. However, don't hesitate to connect with me on LinkedIn!"
     );
   }
+
   return (
     <div className="justify-content-center">
       <h2>Get in Touch</h2>
@@ -20,6 +21,7 @@ const Contact = () => {
               className="form-control"
               id="firstName"
               placeholder="First Name"
+              required
             />
           </div>
         </div>
@@ -33,6 +35,7 @@ const Contact = () => {
               className="form-control"
               id="lastName"
               placeholder="Last Name"
+              required
             />
           </div>
         </div>
@@ -46,6 +49,7 @@ const Contact = () => {
               className="form-control"
               id="email"
               placeholder="Email"
+              required
             />
           </div>
         </div>
@@ -59,6 +63,7 @@ const Contact = () => {
               className="form-control"
               id="subject"
               placeholder="Subject"
+              required
             />
           </div>
         </div>
@@ -73,11 +78,14 @@ const Contact = () => {
               placeholder="Message"
               rows="10"
               cols="50"
+              required
             ></textarea>
           </div>
         </div>
         <div>
+
           <button onClick={submitForm} type="button" className="btn btn-light">
+
             Send Message
           </button>
         </div>
