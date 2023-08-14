@@ -1,6 +1,11 @@
 import "../css/Contact.css";
 
 const Contact = () => {
+  function submitForm() {
+    alert(
+      "Greetings! The contact page is currently undergoing development, so emails won't be dispatched. However, don't hesitate to connect with me on LinkedIn!"
+    );
+  }
   return (
     <div className="justify-content-center">
       <h2>Get in Touch</h2>
@@ -72,7 +77,7 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <button type="button" className="btn btn-light">
+          <button onClick={submitForm} type="button" className="btn btn-light">
             Send Message
           </button>
         </div>

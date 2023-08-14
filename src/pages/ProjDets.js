@@ -33,7 +33,7 @@ const ProjDetails = () => {
           <h4>Technologies</h4>
           <ul>
             {project.technologies.map(function (tech, i) {
-              return <li key={project.key}>{tech}</li>;
+              return <li key={i}>{tech}</li>;
             })}
           </ul>
         </div>
@@ -47,7 +47,7 @@ const ProjDetails = () => {
           <h4>Results</h4>
           <ul>
             {project.results.map(function (res, i) {
-              return <li key={project.key}>{res}</li>;
+              return <li key={i}>{res}</li>;
             })}
           </ul>
         </div>

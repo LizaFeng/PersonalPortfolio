@@ -3,8 +3,8 @@ import "../../css/NavBar.css";
 import { Link, Route, Routes } from "react-router-dom";
 import Home from "../../pages/Home";
 import Contact from "../../pages/Contact";
-import Projects from "../../pages/Projects";
-import Work from "../../pages/Work";
+import Projects from "./Projects";
+import Work from "./Work";
 import Download from "../../pages/Download";
 import NotFound from "../../pages/NotFound";
 import WorkDetails from "../../pages/WorkDets";
@@ -13,8 +13,8 @@ import ProjDetails from "../../pages/ProjDets";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg custom-navbar">
+        <Link className="navbar-brand link" to="/">
           Home
         </Link>
         <button
@@ -26,13 +26,18 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            <span>_</span>
+          </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
-            <Resume />
             <li className="nav-item">
-              <Link className="nav-link" to="Contact">
+              <Resume />
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link link" to="Contact">
                 Contact
               </Link>
             </li>

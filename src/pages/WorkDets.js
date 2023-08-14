@@ -2,7 +2,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { workExp } from "../data/workExp";
-import "../css/InfoCard.css";
 
 const WorkDetails = () => {
   const { startMY } = useParams();

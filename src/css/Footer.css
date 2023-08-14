@@ -1,0 +1,16 @@
+.foot {
+  margin-top: 10%;
+  padding: 1rem;
+  background-color: #4682a9;
+}
+
+.footLink {
+  color: #f6f4eb;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+a {
+  margin: 1rem;
+  text-decoration: none;
+}

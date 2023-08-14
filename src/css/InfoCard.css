@@ -1,5 +1,11 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .cardContainer {
-  margin: 2rem;
+  margin: 1rem;
+  align-items: center;
 }
 
 .cardText {

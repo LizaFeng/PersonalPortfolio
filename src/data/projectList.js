@@ -15,7 +15,7 @@ const projectList = [
       "Proficiently handled issues and bugs identified by peers during the game's testing phase.",
       "Provided support in configuring Firebase for website deployment and game hosting.",
     ],
-    problem: ```
+    problem: `
     Animal Mafia is an exciting web-based Unity game that takes 
     players on a thrilling adventure in the animal kingdom. 
     The game features a dynamic world where animals play the 
@@ -23,7 +23,7 @@ const projectList = [
     activities and daring dungeon runs. The game is hosted on 
     Firebase, providing seamless gameplay and interactive 
     experiences for players.
-    ```,
+    `,
     //0th index would have the approach description.
     //1st index would have the results which includes links
     results: [
@@ -48,12 +48,12 @@ const projectList = [
     endDate: "Dec 2022",
     technologies: ["Javascript", "React", "Node.js", "Html/Css"],
     responsibilities: [],
-    problem: ```
+    problem: `
     The objective of this project is to develop a Hexadecimal
      Calculator using React States, aimed at providing a 
      user-friendly interface for performing basic arithmetic 
      operations on hexadecimal numbers. 
-      ```,
+      `,
     //0th index would have the approach description.
     //1st index would have the results which includes links
     results: [
@@ -67,7 +67,7 @@ const projectList = [
         "Error Handling: Implement checks to prevent division by zero and limit the number of characters entered. Display appropriate error messages when necessary.",
         "Input Rules Enforcement: Add validation to disallow entering an operation as the first input and prevent consecutive operations. Display error messages or disable buttons accordingly.",
       ],
-      ```
+      `
       The calculator will allow 
       users to input two hexadecimal numbers, select an arithmetic
        operation (+, -, *, or /), and display the result in 
@@ -77,7 +77,7 @@ const projectList = [
        will incorporate error handling to prevent division by zero,
         limit the number of characters entered, and enforce input 
         rules for operations.
-        ```,
+        `,
       ["https://github.com/LizaFeng/Hexadecimal-Calculator"],
     ],
     visuals: "",
@@ -96,13 +96,13 @@ const projectList = [
       "Implemented an open-source parse server using back4app",
       "Worked with Team to set up a login/signup page",
     ],
-    problem: ```
+    problem: `
     Our app enables easy deal-sharing for businesses and users, promoting local 
     exploration and fostering community connections. Small businesses can 
     effortlessly share their deals, and customers can discover enticing offers 
     in their neighborhoods. The app bridges the gap between small and large businesses, 
     providing a seamless platform for sharing deals with both existing and potential clients.
-    ```,
+    `,
     //0th index would have the approach description.
     //1st index would have the results which includes links
     results: [
