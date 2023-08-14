@@ -1,7 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .cardContainer {
-  margin: 2rem;
+  margin: 1rem;
+  align-items: center;
 }
 
 .cardText {
   margin: 1.5rem;
+}
+
+.cardDetails {
+  margin: 8%;
+  text-align: left;
 }

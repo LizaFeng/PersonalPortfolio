@@ -1,6 +1,17 @@
 const workExp = [
   {
     key: 1,
+    company: "CUNY Hunter College",
+    title: "Web Developer",
+    startDate: "Aug 2023",
+    endDate: "Present",
+    responsibilities: [
+      "Worked on a team to migrate React-based website, which teaches students to learn Chinese, to JavaScript.",
+      "Led development of quizzes that test knowledge after module completion.",
+    ],
+  },
+  {
+    key: 2,
     company: "Away Travels",
     title: "Sales Associate",
     startDate: "Sept 2018",
@@ -13,7 +24,7 @@ const workExp = [
     ],
   },
   {
-    key: 2,
+    key: 3,
     company: "Unadat",
     title: "UI/UX Design Intern",
     startDate: "Jun 2022",

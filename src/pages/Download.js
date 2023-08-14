@@ -1,8 +1,15 @@
 const Download = () => {
+  const styled = {
+    margin: "20%", // Corrected margin value with units
+  };
   return (
-    <a href="LizaResume.pdf" download="LizaResume.pdf">
-      <button>Download File</button>
-    </a>
+    <div style={styled}>
+      <a href="LizaResume.pdf" download="LizaResume.pdf">
+        <button className="btn btn-outline-primary btn-rounded">
+          Download Resume
+        </button>
+      </a>
+    </div>
   );
 };
 

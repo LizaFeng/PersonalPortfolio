@@ -1,11 +1,24 @@
+import projectList from "../data/projectList";
+import "../css/Home.css";
+
 const Home = () => {
+  const currentProject = () => {};
   return (
-    <div>
+    <div className="about-me">
+      <div className="intro">
+        <h1>Hello, I'm Liza!</h1>
+      </div>
       <p>
-        Hello there and thank you for stopping by! My name is Liza and I
-        graduated from Hunter College in spring of 2023. I created this website
-        from scratch using Javascript, React, JQuery, Boostrap, Popper, and
-        HTML/CSS. Feel free to take look around!
+        I'm a recent <a href="https://hunter.cuny.edu/">Hunter College</a>
+        graduate on a mission to excel as a front-end software engineer based in
+        New York. I'm passionate about crafting user-friendly applications and
+        currently contribute my skills as a web developer at Hunter College's
+        Chinese Language Department. My current focus is enhancing the user
+        experience for the ongoing project, {currentProject}. I welcome
+        opportunities for collaboration, networking, and discussions related to
+        front-end development and innovative web solutions. Let's connect and
+        explore ways we can create impactful digital experiences together.
+
       </p>
     </div>
   );

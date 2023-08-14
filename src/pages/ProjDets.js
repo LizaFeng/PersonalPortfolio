@@ -15,7 +15,7 @@ const ProjDetails = () => {
   }
 
   return (
-    <div>
+    <div className="cardContainer">
       <h1>{project.name}</h1>
       <h3>
         {project.solo ? (
@@ -25,30 +25,32 @@ const ProjDetails = () => {
         )}
       </h3>
 
-      <h3>
+      <h4>
         {project.startDate} - {project.endDate}
-      </h3>
-      <div>
-        <h4>Technologies</h4>
-        <ul>
-          {project.technologies.map(function (tech, i) {
-            return <li key={project.key}>{tech}</li>;
-          })}
-        </ul>
-      </div>
-      <div id="projDetails">
-        <h4>Problem Statement</h4>
-        <p>{project.problem}</p>
-        <br />
-        <h4>Approach</h4>
-        <p>{project.results[0]}</p>
-        <br />
-        <h4>Results</h4>
-        <ul>
-          {project.results.map(function (res, i) {
-            return <li key={project.key}>{res}</li>;
-          })}
-        </ul>
+      </h4>
+      <div className="cardDetails">
+        <div>
+          <h4>Technologies</h4>
+          <ul>
+            {project.technologies.map(function (tech, i) {
+              return <li key={i}>{tech}</li>;
+            })}
+          </ul>
+        </div>
+        <div>
+          <h4>Problem Statement</h4>
+          <p>{project.problem}</p>
+          <br />
+          <h4>Approach</h4>
+          <p>{project.results[0]}</p>
+          <br />
+          <h4>Results</h4>
+          <ul>
+            {project.results.map(function (res, i) {
+              return <li key={i}>{res}</li>;
+            })}
+          </ul>
+        </div>
       </div>
     </div>
   );
