@@ -1,6 +1,5 @@
 .navbar-brand {
   margin-left: 1rem;
-  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -17,12 +16,11 @@ li {
   background-color: white;
   color: black;
   border-bottom: 1px solid lightgray;
-  border-bottom-width: 85%;
 }
 
 .customDrop {
   align-items: left;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
 }
 
 .link {
@@ -38,11 +36,10 @@ li {
   top: 100%; /* Position the dropdown below the parent element */
   left: 0;
   z-index: 1000; /* Ensure the dropdown appears above other content */
-  /* Adjust the background color to a contrasting shade */
   color: white; /* Set text color to ensure readability */
 }
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  padding: 0.25rem 0.5rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;

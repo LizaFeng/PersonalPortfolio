@@ -5,7 +5,7 @@ const projectList = [
     solo: false,
     teamSize: 5,
     startDate: "Jan 2023",
-    endDate: "May 2023",
+    endDate: "Present",
     technologies: ["Unity", "React", "HTML/CSS", "Javascript", "Firebase"],
     responsibilities: [
       "Conducted research and developed prototypes using plain JavaScript code, canvas for graphics, and ultimately adopted Unity for game development.",

@@ -6,8 +6,9 @@ const Contact = () => {
       "Greetings! The contact page is currently undergoing development, so emails won't be dispatched. However, don't hesitate to connect with me on LinkedIn!"
     );
   }
+
   return (
-    <div className="justify-content-center">
+    <div className="justify-content-center contactCont">
       <h2>Get in Touch</h2>
       <form className="contactForm">
         <div className="form-group row">
@@ -20,6 +21,7 @@ const Contact = () => {
               className="form-control"
               id="firstName"
               placeholder="First Name"
+              required
             />
           </div>
         </div>
@@ -33,6 +35,7 @@ const Contact = () => {
               className="form-control"
               id="lastName"
               placeholder="Last Name"
+              required
             />
           </div>
         </div>
@@ -46,6 +49,7 @@ const Contact = () => {
               className="form-control"
               id="email"
               placeholder="Email"
+              required
             />
           </div>
         </div>
@@ -59,6 +63,7 @@ const Contact = () => {
               className="form-control"
               id="subject"
               placeholder="Subject"
+              required
             />
           </div>
         </div>
@@ -71,8 +76,9 @@ const Contact = () => {
               className="form-control"
               id="message"
               placeholder="Message"
-              rows="10"
+              rows="9"
               cols="50"
+              required
             ></textarea>
           </div>
         </div>
