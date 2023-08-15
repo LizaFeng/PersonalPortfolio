@@ -8,7 +8,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="justify-content-center">
+    <div className="justify-content-center contactCont">
       <h2>Get in Touch</h2>
       <form className="contactForm">
         <div className="form-group row">
@@ -76,16 +76,14 @@ const Contact = () => {
               className="form-control"
               id="message"
               placeholder="Message"
-              rows="10"
+              rows="9"
               cols="50"
               required
             ></textarea>
           </div>
         </div>
         <div>
-
           <button onClick={submitForm} type="button" className="btn btn-light">
-
             Send Message
           </button>
         </div>

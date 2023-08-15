@@ -9,8 +9,15 @@ function Resume() {
     setExpanded(!expanded);
   };
 
+  const closeMenu = () => {
+    setExpanded(false);
+  };
+
   return (
-    <li className={`nav-item dropdown ${expanded ? "show" : ""}`}>
+    <li
+      className={`nav-item dropdown ${expanded ? "show" : "hide"}`}
+      onMouseLeave={closeMenu}
+    >
       <a
         className="nav-link dropdown-toggle link"
         href="#"
@@ -26,13 +33,25 @@ function Resume() {
         className={`dropdown-menu customDrop ${expanded ? "show" : ""}`}
         aria-labelledby="resumeDropdown"
       >
-        <Link className="dropdown-item resCategory link" to="Projects">
+        <Link
+          className="dropdown-item resCategory link"
+          to="Projects"
+          onClick={closeMenu} // Close the menu when a menu item is clicked
+        >
           Projects
         </Link>
-        <Link className="dropdown-item resCategory link" to="Work-Experience">
+        <Link
+          className="dropdown-item resCategory link"
+          to="Work-Experience"
+          onClick={closeMenu} // Close the menu when a menu item is clicked
+        >
           Work/Experience
         </Link>
-        <Link className="dropdown-item resCategory link" to="Download">
+        <Link
+          className="dropdown-item resCategory link"
+          to="Download"
+          onClick={closeMenu} // Close the menu when a menu item is clicked
+        >
           Download
         </Link>
       </div>

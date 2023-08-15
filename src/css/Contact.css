@@ -1,5 +1,12 @@
+.contactCont {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 3rem;
+}
+
 .contactForm {
   margin: 1rem 1rem;
+  margin-bottom: 0px;
 }
 
 h2 {
