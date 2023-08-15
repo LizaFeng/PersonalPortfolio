@@ -21,7 +21,7 @@ const Home = () => {
         </>
       );
     }
-    return "hello";
+    return "";
   };
 
   return (
