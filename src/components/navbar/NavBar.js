@@ -54,6 +54,7 @@ const NavBar = () => {
           element={<WorkDetails />}
         />
         <Route path="/Download" element={<Download />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </div>
   );
