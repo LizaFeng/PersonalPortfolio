@@ -6,7 +6,6 @@ import Contact from "../../pages/Contact";
 import Projects from "./Projects";
 import Work from "./Work";
 import Download from "../../pages/Download";
-import NotFound from "../../pages/NotFound";
 import WorkDetails from "../../pages/WorkDets";
 import ProjDetails from "../../pages/ProjDets";
 
@@ -55,7 +54,6 @@ const NavBar = () => {
           element={<WorkDetails />}
         />
         <Route path="/Download" element={<Download />} />
-        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
