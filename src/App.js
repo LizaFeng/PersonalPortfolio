@@ -10,9 +10,7 @@ function App() {
       <div className="navDiv">
         <NavBar />
       </div>
-      <div className="main-content">
-        <Home />
-      </div>
+      <div className="main-content"></div>
       <div className="footDiv">
         <Footer />
       </div>
