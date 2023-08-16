@@ -2,6 +2,7 @@ import "./css/App.css";
 import NavBar from "./components/navbar/NavBar.js";
 import Footer from "./components/navbar/Footer";
 import "../src/css/App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <div class="navDiv">
         <NavBar />
       </div>
-      <div className="main-content">{/* Your content goes here */}</div>
+      <div className="main-content">
+        <Home />
+      </div>
       <div className="footDiv">
         <Footer />
       </div>
