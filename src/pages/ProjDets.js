@@ -28,6 +28,9 @@ const ProjDetails = () => {
       <h4>
         {project.startDate} - {project.endDate}
       </h4>
+      <a href={project.results[1]} target="_blank">
+        Click here to see project
+      </a>
       <div className="cardDetails">
         <div>
           <h4>Technologies</h4>
@@ -41,15 +44,13 @@ const ProjDetails = () => {
           <h4>Problem Statement</h4>
           <p>{project.problem}</p>
           <br />
-          <h4>Approach</h4>
-          <p>{project.results[0]}</p>
-          <br />
           <h4>Results</h4>
           <ul>
-            {project.results.map(function (res, i) {
-              return <li key={i}>{res}</li>;
+            {project.results[0].map(function (res, j) {
+              return <li key={j}>{res}</li>;
             })}
           </ul>
+          <br />
         </div>
       </div>
     </div>

@@ -67,17 +67,6 @@ const projectList = [
         "Error Handling: Implement checks to prevent division by zero and limit the number of characters entered. Display appropriate error messages when necessary.",
         "Input Rules Enforcement: Add validation to disallow entering an operation as the first input and prevent consecutive operations. Display error messages or disable buttons accordingly.",
       ],
-      `
-      The calculator will allow 
-      users to input two hexadecimal numbers, select an arithmetic
-       operation (+, -, *, or /), and display the result in 
-       hexadecimal format. The primary focus is on utilizing React 
-       state management concepts to update and display the 
-       calculation results dynamically. Additionally, the project 
-       will incorporate error handling to prevent division by zero,
-        limit the number of characters entered, and enforce input 
-        rules for operations.
-        `,
       ["https://github.com/LizaFeng/Hexadecimal-Calculator"],
     ],
     visuals: "",
