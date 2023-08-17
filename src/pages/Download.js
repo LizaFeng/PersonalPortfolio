@@ -4,10 +4,7 @@ const Download = () => {
   };
   return (
     <div style={styled}>
-      <a
-        href="https://lizafeng.github.io/PersonalPortfolio/public/LizaResume.pdf"
-        download="LizaResume.pdf"
-      >
+      <a href="public/LizaResume.pdf" download="LizaResume.pdf">
         <button className="btn btn-outline-primary btn-rounded">
           Download Resume
         </button>
