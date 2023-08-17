@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className="about-me">
       <div className="intro">
-        <h2>Hello! Liza here, sharing my DIY portfolio site.</h2>
+        <h2>Hello! Liza here, sharing my portfolio site.</h2>
       </div>
       <p>
         I'm a recent <a href="https://hunter.cuny.edu/">Hunter College</a>
