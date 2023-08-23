@@ -1,5 +1,30 @@
 const projectList = [
   {
+    key: 0,
+    name: "Job Tracker",
+    solo: true,
+    teamSize: 0,
+    startDate: "Aug 2023",
+    endDate: "Present",
+    technologies: ["React", "HTML/CSS", "Javascript"],
+    responsibilities: [],
+    problem: `
+    Many individuals utilize Google Sheets for assisting in their job tracking processes.
+    The advantage of using Google Sheets lies in its simplistic layout that ensures 
+    comprehensive data display. However, personalizing the spreadsheet to implement 
+    functions like value filtering or color-coded row adjustments based on column 
+    values can be time-intensive and necessitates a learning curve. To address this 
+    challenge, I am developing an application. The primary objective is to offer 
+    users a hassle-free job tracking experience by eliminating the need to invest time 
+    in manually tailoring fundamental features of their tracker. This approach aims to 
+    enable users to promptly initiate their job tracking tasks.
+  `,
+    //0th index would have the approach description.
+    //1st index would have the results which includes links
+    results: [["In progress..."], ["https://github.com/LizaFeng/JobTracking"]],
+    visuals: "",
+  },
+  {
     key: 1,
     name: "Animal Mafia",
     solo: false,
