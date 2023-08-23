@@ -1,6 +1,6 @@
 const projectList = [
   {
-    key: 0,
+    key: 1,
     name: "Job Tracker",
     solo: true,
     teamSize: 0,
@@ -25,7 +25,7 @@ const projectList = [
     visuals: "",
   },
   {
-    key: 1,
+    key: 2,
     name: "Animal Mafia",
     solo: false,
     teamSize: 5,
@@ -65,7 +65,7 @@ const projectList = [
     visuals: "https://www.loom.com/share/60eddec2714a4d2182d0af7176454b9e",
   },
   {
-    key: 2,
+    key: 3,
     name: "Hexadecimal Calculator",
     solo: true,
     teamSize: 1,
@@ -97,7 +97,7 @@ const projectList = [
     visuals: "",
   },
   {
-    key: 3,
+    key: 4,
     name: "Steal-Tastic",
     solo: false,
     teamSize: 4,
